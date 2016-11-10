@@ -1,0 +1,4 @@
+Desktopmagic==14.3.11
+Pillow==3.4.2
+pypiwin32==219
+ScreenShot==0.0.1
