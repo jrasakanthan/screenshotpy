@@ -6,7 +6,7 @@ from ParseTime.ParseTime import parse_time
 
 #creatre a zero based display index
 DISPLAYS = [D-1 for D in DISPLAYS]
-#print (DISPLAYS) 
+print (DISPLAYS) 
 
 # from desktopmagic.screengrab_win32 import (
 # 	getDisplayRects, saveScreenToBmp, 
@@ -50,7 +50,7 @@ def capture_save(displays):
 	monitors = getDisplayRects(displays)
 	for m, d in zip(monitors, displays):
 		image = snap(m)
-		filename = 'screenshot_display-%02d_%s.png'%(d, time_str(time_now()))
+		filename = 'screenshot_display-%02d_%s.%s'%(d, time_str(time_now()), IMAGE_FORMAT)
 		save(image, filename)
 
 #'screenshot_display-%02d_%s.png'%(d, time_str(time_now()))
