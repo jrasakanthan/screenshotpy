@@ -6,7 +6,7 @@ def readme(fname):
 
 setup(
         name = 'ScreenShot',
-        version = '0.0.2',
+        version = '0.0.3',
         description = 'ScreenShot',
         author = 'Janarthanan Rasakanthan',
         author_email = 'Janarthanan.Rasakanthan@perkinelmer.com',
