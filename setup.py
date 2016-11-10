@@ -20,6 +20,16 @@ setup(
             'ParseTime>=0.0.1',
         ],
         zip_safe = False,
+        classifiers = [
+            'Development Status :: 3 - Alpha',
+            'Intended Audience :: Developers',
+            'Topic :: Software Development :: BuildTools',
+        ],
+        entry_points={
+            'console_scripts': [
+                'ScreenShot=ScreenShot.__main__:main',
+            ]
+        }
     )
 
 
